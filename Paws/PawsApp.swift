@@ -11,7 +11,7 @@ import SwiftUI
 struct PawsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootCoordinatorView(coordinator: BreedListCoordinator())
         }
     }
 }
