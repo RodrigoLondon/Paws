@@ -146,6 +146,8 @@ Navigation Capabilities Implemented
 * Present Full-Screen Cover – Display a full-screen modal.
 * Dismiss Sheet / Dismiss Cover – Close the respective presentation
 
+  
+
 Diagram – Coordinator Navigation Flow
 
 +------------------------+
@@ -164,6 +166,7 @@ Diagram – Coordinator Navigation Flow
         |                               |
   ViewModels trigger             UI state changes
   navigation via closures        observed by RootCoordinatorView
+
 
 
 Flow:
@@ -238,9 +241,3 @@ sequenceDiagram
 
 
 This makes the navigation lifecycle completely transparent, testable, and easy to extend when new flows are added.
-
-
-
-
-👏 Credits
-* Dog CEO API - https://dog.ceo/dog-api/   🧑‍💻🐾
